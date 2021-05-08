@@ -116,7 +116,7 @@ blockquote {
 
 .tip-vlevo {
 	grid-column: 1 / 2;
-	flex-direction: column;
+	flex-wrap: wrap;
 	padding: 20px;
 	text-align: right;
 	border-right: 3px solid #f79f1f;
@@ -148,7 +148,6 @@ blockquote {
 .tip-vpravo {
 	grid-column: -1 / -2;
 	text-align: left;
-	flex-direction: column;
 	padding: 20px;
 	border-left: 3px solid #f79f1f;
 }
@@ -174,7 +173,11 @@ blockquote {
 	top: 0;
 	left: 0;
 	z-index: -999;
-}*/
+}*/ 
+
+.blog header p {
+	color: #b2bec3;
+}
 
 .tip p {
 	margin-bottom: 0;
@@ -183,7 +186,7 @@ blockquote {
 }
 
 .tip-vlevo img {
-	max-width: 100%;
+	width: 100%;
 	margin-bottom: 20px;
 }
 
